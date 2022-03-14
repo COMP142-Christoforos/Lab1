@@ -114,7 +114,7 @@ int main() {
 	const int MAX_ARRAY = 10;
 	int choise, num, num1, tmp;
 	char ch;
-	srand((unsigned int)time(NULL));
+	srand(time(NULL));
 	do {
 		menu();
 		cin >> choise;
